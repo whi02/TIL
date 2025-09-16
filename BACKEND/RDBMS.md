@@ -17,6 +17,7 @@
 
 
 ## 관계형 데이터베이스 (RDBMS)
+Relational Database Management System로
 관계형 데이터베이스에는 다양한 RDBMS가 있다.
 <br />
 
