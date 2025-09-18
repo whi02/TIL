@@ -19,7 +19,7 @@ Routing Information Protocol로
 ## RIPv2
 
 - 멀티캐스트 방식으로 데이터 전송한다.
-- VLSM 을 지원한다.
+- VLSM을 지원한다.
 - 인증 기능 (Authentication) 이 있다.
     - 누군가 자신의 라우터를 가져와 경로를 교환하고, 잘못된 경로를 삽입할 수 없다. (RIPv1은 일어날 가능성이 있다.)
 - IPv4 주소 체계를 사용한다.
