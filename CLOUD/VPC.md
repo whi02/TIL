@@ -17,7 +17,7 @@ AWS VPC는 On-premise와 동일한 대역의 사설 IP를 사용할 수 있다.
 
 즉 VPC를 생성할 수 있는 가장 큰 대역은 /16이며, 가장 작은 대역은 /28입니다.
 
-On-premise : 자체 서버에서 운영되는 시스템
+On-premise : 자체 서버를 운영하는 시스템
 
 
 AWS Cloud 내에는 IDC의 집합인 'Region'이 존재하고 Region은 IDC인 다수의 'Availability Zone(AZ)'으로 이루어진다. 그중에서 VPC는 Region에 상응하는 규모의 네트워크를 뜻한다는 것을 알 수 있다.
