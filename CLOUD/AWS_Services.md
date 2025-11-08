@@ -59,7 +59,7 @@ CPU, 메모리, 네트워크 트래픽과 같은 시스템 자원들의 메트�
 
 대표적으로 **scale up**과 **scale out**이 있다.
 
-![image.png](attachment:4e637e95-b52b-4c31-a2da-c67e12642747:image.png)
+<img width="528" height="155" alt="image" src="https://github.com/user-attachments/assets/f5ce6382-8e0a-4638-9d2d-143e2e07759f" />
 
 ### scale up
 
@@ -69,7 +69,7 @@ scale up은 무식하게 10배 더 큰 인스턴스를 사용하는 방법이다
 
 하지만 성능과 비용이 비례하지 않는다는 단점을 가지고 있다.
 
-![image.png](attachment:711b35f6-8d98-4f60-87f4-b014d22ce680:image.png)
+<img width="577" height="309" alt="image" src="https://github.com/user-attachments/assets/32887204-30da-40ba-982f-c3431680438c" />
 
 ### scale out
 
@@ -85,7 +85,7 @@ scale up은 무식하게 10배 더 큰 인스턴스를 사용하는 방법이다
 
 scale out으로 늘린 인스턴스를 다시 줄이는 행위이다.
 
-![image.png](attachment:ad3cbfcc-2b5c-46e9-af39-cbbd660305bf:image.png)
+<img width="476" height="334" alt="image" src="https://github.com/user-attachments/assets/01c1f688-05e2-42dd-92b3-f743a91e1fde" />
 
 ## 오토 스케일링
 
@@ -135,15 +135,15 @@ EC2, RDS가 서로 통신해야 한다면, VPC 위에 생성하여 세팅해야 
 
 현재는 자동적으로 기본적인 VPC를 생성해 준다.
 
-![image.png](attachment:b7f3828f-6c2b-4e03-b321-2c99b431ab72:image.png)
+<img width="635" height="361" alt="image" src="https://github.com/user-attachments/assets/3c6041e7-990b-4c46-b480-32984b6f510b" />
 
 VPC는 크기를 정할 수 있는데, IP 주소 범위 (CIDR 표기)로 정할 수 있다.
 
 VPC를 생성하면, 여러 서비스를 IP주소에 따라 적용할 수 있다.
 
-![image.png](attachment:aff3054b-8d65-4c3f-ac7d-228f5dda1476:image.png)
+<img width="633" height="333" alt="image" src="https://github.com/user-attachments/assets/44c37498-7eb8-407e-96d3-56e6f2b073cc" />
 
-![image.png](attachment:a068eec0-9d7a-4ee0-915e-15631fbf71f6:image.png)
+<img width="747" height="92" alt="image" src="https://github.com/user-attachments/assets/bbe64729-0640-4d0a-83ce-c0d0f9288565" />
 
 # Storage Services
 
@@ -151,7 +151,7 @@ VPC를 생성하면, 여러 서비스를 IP주소에 따라 적용할 수 있다
 
 데이터를 온라인으로 오브젝트 형태로 저장해 두는 스토리지 서비스를 말한다.
 
-![image.png](attachment:e9bbe3ed-4379-4951-9ae1-40209608311a:image.png)
+<img width="634" height="154" alt="image" src="https://github.com/user-attachments/assets/0a840a44-9b22-45df-8f6a-e4a394e9e3c0" />
 
 ## 특징
 
@@ -172,3 +172,9 @@ Auto Scaling과 Load Balancing에 신경쓰지 않아도 된다.
 
 - 구조 : [사용자] → [로드 밸런서] → [서버1, 서버2, 서버3 ...]
 - AWS 대표적인 Load Balancer : ALB, NLB, GLB
+
+
+## 내 생각
+생각보다 AWS에서 제공하는 서비스 들이 많다.
+각 서비스들의 특정과 장단점을 숙지 하여 상황에 맞는 서비스를 선택하는 것이 중요할 것 같다.
+서비스들의 요금을 줄이는 여러 방법이 있는데 실행해보며 요금을 감소시킬 수 있는 엔지니어가 다른 엔지니어 보다 경쟁력이 있을 것 같다.
