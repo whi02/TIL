@@ -45,6 +45,10 @@ AWS에서 가장 기본적인 인프라로 독립된 컴퓨터를 제공해주�
 
 따라서 **반복하는 설치 작업을 줄일 수** 있다.
 
+<br />
+<br />
+
+
 # **Auto Scaling**
 
 CPU, 메모리, 네트워크 트래픽과 같은 시스템 자원들의 메트릭 값을 모니터링 하여 서버 사이즈를 자동으로 조절하는 것을 말한다.
@@ -93,7 +97,9 @@ scale out으로 늘린 인스턴스를 다시 줄이는 행위이다.
 
 application을 모니터링 하고 용량을 매트릭 값에 따라 자동을 조정하여 적은 비용으로 안정적이고, 에측 가능한 성능을 유지한다.
 
-## 
+<br />
+<br />
+
 
 # Lambda (**Serverless Computing)**
 
@@ -114,6 +120,10 @@ application을 모니터링 하고 용량을 매트릭 값에 따라 자동을 �
 100만개의 함수를 실행 시켜도 280원 청구된다.
 
 사용 유저가 늘어나면, 실행 함수를 늘려 동작 시키기 때문에 성능적인 부분에서 문제가 되지 않는다.
+
+<br />
+<br />
+
 
 # Networking Services
 
@@ -144,6 +154,10 @@ VPC를 생성하면, 여러 서비스를 IP주소에 따라 적용할 수 있다
 <img width="633" height="333" alt="image" src="https://github.com/user-attachments/assets/44c37498-7eb8-407e-96d3-56e6f2b073cc" />
 
 <img width="747" height="92" alt="image" src="https://github.com/user-attachments/assets/bbe64729-0640-4d0a-83ce-c0d0f9288565" />
+
+<br />
+<br />
+
 
 # Storage Services
 
