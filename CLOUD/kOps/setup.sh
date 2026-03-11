@@ -18,18 +18,18 @@ chmod +x kops-linux-amd64
 sudo mv kops-linux-amd64 /usr/local/bin/kops
 
 # 4. 환경변수 설정 (영구 적용)
-echo 'export KOPS_STATE_STORE="s3://whiyoung.whi02.cc"' >> ~/.bashrc
+echo 'export KOPS_STATE_STORE="s3://{name}.{name}.cc"' >> ~/.bashrc
 source ~/.bashrc
 
 export CONTROL_PLANE_SIZE="t3.medium"
 export NODE_SIZE="t3.medium"
-export ZONES="ap-southeast-2a,ap-southeast-2b,ap-southeast-2c"
+export ZONES="{regionA},{regionB},{regionC}"
 
 # 5. S3 버킷 생성
-aws s3 mb s3://whiyoung.whi02.cc --region ap-southeast-2
+aws s3 mb s3://{name}.{name}.cc --region {region}
 
 # 6. kOps 클러스터 생성
-kops create cluster whiyoung.whi02.cc \
+kops create cluster {name}.{name}.cc \
   --node-count 2 \
   --zones $ZONES \
   --node-size $NODE_SIZE \
@@ -40,7 +40,7 @@ kops create cluster whiyoung.whi02.cc \
   --yes
 
 # 7. kubeconfig 설정
-kops export kubeconfig whiyoung.whi02.cc --admin
+kops export kubeconfig {name}.{name}.cc --admin
 
 # 8. Envoy Gateway 설치
 kubectl apply --server-side -f https://github.com/envoyproxy/gateway/releases/download/v1.7.0/install.yaml
